@@ -1,0 +1,54 @@
+<Project id="3c90d0d0-a69c-4d94-b994-ce0c20d51a39" namespace="" name="miniproject" category="project" workType="foreground" version="1.00" lastPublishedDate="" lastPublishedBy="" createdDate="2024-09-05 09:11:51" createdBy="" lastPublishedServer="" latestProcess="T_보고서만들기" designerVersion="3.1.100.11228" DesignedBy="">
+  <SharedTask isExpended="false" />
+  <NormalTask isExpended="true">
+    <LinkItem id="30584e28-2c07-4d68-943e-832b7ab67648" category="NormalTask" isChanged="Y" desc="" stepCount="17" name="T_데이터가공">
+      <Properties />
+    </LinkItem>
+    <LinkItem id="ee524be9-b535-4438-970f-ff65b68d76f5" category="NormalTask" isChanged="Y" desc="" stepCount="19" name="T_데이터수집">
+      <Properties />
+    </LinkItem>
+    <LinkItem id="5f3715ed-e376-497f-a633-4e4415913320" category="NormalTask" isChanged="Y" desc="" stepCount="1" name="T_메일보내기">
+      <Properties />
+    </LinkItem>
+    <LinkItem id="048d5a11-d4e8-4419-849c-c5ad699f8305" category="NormalTask" isChanged="Y" desc="" stepCount="56" name="T_보고서만들기">
+      <Properties />
+    </LinkItem>
+  </NormalTask>
+  <Event isExpended="false" />
+  <Process isExpended="true">
+    <LinkItem id="ff7e737e-6361-4c0a-a1fa-18ed34505f73" category="Process" isChanged="Y" desc="default process" stepCount="4" name="P_miniproject">
+      <Properties />
+    </LinkItem>
+  </Process>
+  <CustomLibraries isExpended="false" />
+  <LibraryTemplate isExpended="false" />
+  <Resources isExpended="false" />
+  <RemoteProcess isExpended="false" />
+  <RecorderData isExpended="false" />
+  <Asset />
+  <Library />
+  <Variables />
+  <Properties>
+    <Property key="PlayOption_StepInterval" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="1" />
+    <Property key="PlayOption_DisableDrawBounds" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+    <Property key="PlayOption_InvokeFirst" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+    <Property key="PlayOption_AllowUploadDumpScreenResult" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+  </Properties>
+  <DisplayLibraries>
+    <string>Flow</string>
+    <string>Win</string>
+    <string>Net</string>
+    <string>Excel</string>
+    <string>Chrome</string>
+    <string>ImageRecognition</string>
+    <string>DataConverter</string>
+    <string>ImageConverter</string>
+    <string>MicrosoftOCR</string>
+    <string>NativeApp</string>
+    <string>Orchestra</string>
+    <string>Outlook</string>
+    <string>Pdf</string>
+    <string>SAP</string>
+    <string>Desktop</string>
+  </DisplayLibraries>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>A+KkF2kjr5JRhJ3LNpb8yN0d4pk=</DigestValue></Reference></SignedInfo><SignatureValue>bM/lw2/nULE4TPxs4aZokoPMDPrmD0kKMlV5YfGhwcL9WW8D5satnZGD0pJswyfAvwHtM8DfMfZeqvr60AqBBdIesoEWW5X2ElNFt1JYsL7OV8ZJjtjp/TRrC9c7AOvCpNGxWT5UGGskdp+iFQLSBkOTTlJrk+Q09YcTdyPo02N89KVJIGfrPpgRvgw0QApQKgBlg3z+UxoNMq2dSk0MEULLF/jY8R3h1vaZ6AQvdgE03crGHCG6fp5iHngo+qRQM404okLe8TT3QHM3ysFttKQJ7TitUhf5qno5o1VC1xa0OHT6aWWc76LCinn2BGpvi3a106NSx964R7EM3dQ5Lg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=DESIGNER-AZABU, O=bwrpa.samsungsds.com, OU=IPA_DESIGNER, L="", S="", C=""</X509SubjectName></X509Data></KeyInfo></Signature></Project>

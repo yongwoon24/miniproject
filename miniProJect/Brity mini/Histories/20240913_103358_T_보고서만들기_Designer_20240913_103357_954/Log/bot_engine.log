@@ -1,0 +1,830 @@
+﻿2024-09-13 10:33:00,238 [T1] INFO  EngineStarter
+BOT Engine Start - v3.1.100.11228 at 2024-09-13 오전 10:33:00
+EngineID: D_20240913_103259_440
+PID : 13048
+PPID: 14856
+Working Directory: C:\Users\3class_13\AppData\Roaming\Brity RPA Designer
+
+2024-09-13 10:33:00,255 [T1] INFO  EngineStarter
+System Language: ko-KR
+Resolution: 1920 x 1200
+
+2024-09-13 10:33:00,483 [T1] INFO  Config
+Initialize Config
+
+2024-09-13 10:33:00,524 [T1] DEBUG Config
+Config Loaded
+
+2024-09-13 10:33:00,530 [T1] DEBUG Config
+Backup config file.
+
+2024-09-13 10:33:00,539 [T1] INFO  Config
+Orchestrator Service => https://bwrpa.samsungsds.com:8777
+
+2024-09-13 10:33:00,543 [T1] INFO  Config
+Initialize Resource Config
+
+2024-09-13 10:33:00,570 [T1] DEBUG Config
+Refresh Language Information
+
+2024-09-13 10:33:00,660 [T1] INFO  Config
+All Config Initialized.
+
+2024-09-13 10:33:00,668 [T1] DEBUG KeyManager
+Initialize KeyManager
+
+2024-09-13 10:33:00,670 [T1] DEBUG KeyManager
+Load device unique id.
+
+2024-09-13 10:33:00,677 [T1] DEBUG KeyManager
+Device ID is initialized.
+
+2024-09-13 10:33:00,726 [T1] INFO  CertLicenseClient
+Initialize certificate.
+
+2024-09-13 10:33:00,730 [T1] DEBUG CertLicenseClient
+Set Security Protocol: Tls12
+
+2024-09-13 10:33:00,754 [T5] DEBUG JobService
+Connect to agent service
+
+2024-09-13 10:33:00,785 [T1] DEBUG ApplicationInitializer
+InitMode: Thread
+
+2024-09-13 10:33:00,785 [T5] DEBUG JobService
+JobService URL : net.tcp://127.0.0.1:59001/rpa/agent
+
+2024-09-13 10:33:00,785 [T5] DEBUG JobService
+Open connection
+
+2024-09-13 10:33:00,793 [T1] INFO  LibraryManager
+Load Libraries - Started
+
+2024-09-13 10:33:00,799 [T5] DEBUG JobService
+Register engine to agent
+
+2024-09-13 10:33:00,806 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Chrome
+
+2024-09-13 10:33:00,810 [T5] DEBUG JobService
+Engine is connected to agent service.
+
+2024-09-13 10:33:00,810 [T5] DEBUG JobService
+Owner Process PID: 14856
+
+2024-09-13 10:33:00,812 [T5] INFO  JobService
+Start monitoring owner process is terminated.
+
+2024-09-13 10:33:01,051 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Desktop
+
+2024-09-13 10:33:01,242 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Excel
+
+2024-09-13 10:33:01,375 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Flow
+
+2024-09-13 10:33:01,479 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.IE
+
+2024-09-13 10:33:01,575 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageConverter
+
+2024-09-13 10:33:01,627 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageRecognition
+
+2024-09-13 10:33:01,844 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.MicrosoftOCR
+
+2024-09-13 10:33:01,909 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Net
+
+2024-09-13 10:33:02,007 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Orchestra
+
+2024-09-13 10:33:02,104 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ProcessFlow
+
+2024-09-13 10:33:02,200 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.SAP
+
+2024-09-13 10:33:02,271 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Web
+
+2024-09-13 10:33:02,368 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Win
+
+2024-09-13 10:33:02,531 [T1] INFO  ScreenCapture
+Default Screen Capture Bounds: 0,0,1920,1200
+
+2024-09-13 10:33:02,570 [T1] DEBUG AddInLoader
+Load Assembly : BrityRPA.AddIn.NativeApp
+
+2024-09-13 10:33:02,672 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Outlook
+
+2024-09-13 10:33:02,737 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Pdf
+
+2024-09-13 10:33:02,830 [T1] DEBUG LibraryManager
+Load Library - Chrome
+
+2024-09-13 10:33:02,845 [T1] DEBUG LibraryManager
+Load Library - Desktop
+
+2024-09-13 10:33:02,860 [T1] DEBUG LibraryManager
+Load Library - Excel
+
+2024-09-13 10:33:02,875 [T1] DEBUG LibraryManager
+Load Library - Flow
+
+2024-09-13 10:33:02,890 [T1] DEBUG LibraryManager
+Load Library - IE
+
+2024-09-13 10:33:02,905 [T1] DEBUG LibraryManager
+Load Library - ImageConverter
+
+2024-09-13 10:33:02,920 [T1] DEBUG LibraryManager
+Load Library - ImageRecognition
+
+2024-09-13 10:33:02,935 [T1] DEBUG LibraryManager
+Load Library - MicrosoftOCR
+
+2024-09-13 10:33:02,950 [T1] DEBUG LibraryManager
+Load Library - NativeApp
+
+2024-09-13 10:33:02,964 [T1] DEBUG LibraryManager
+Load Library - Net
+
+2024-09-13 10:33:02,979 [T1] DEBUG LibraryManager
+Load Library - Orchestra
+
+2024-09-13 10:33:02,994 [T1] DEBUG LibraryManager
+Load Library - Outlook
+
+2024-09-13 10:33:03,009 [T1] DEBUG LibraryManager
+Load Library - Pdf
+
+2024-09-13 10:33:03,024 [T1] DEBUG LibraryManager
+Load Library - SAP
+
+2024-09-13 10:33:03,039 [T1] DEBUG LibraryManager
+Load Library - Web
+
+2024-09-13 10:33:03,054 [T1] DEBUG LibraryManager
+Load Library - Win
+
+2024-09-13 10:33:03,069 [T1] DEBUG LibraryManager
+Load Library - WorkFlow
+
+2024-09-13 10:33:03,073 [T1] DEBUG LibraryManager
+Load built-in script libraries
+
+2024-09-13 10:33:03,319 [T1] INFO  LibraryManager
+Load Libraries - Completed.
+
+2024-09-13 10:33:03,330 [T1] INFO  App
+Launch Arguments: Total: 6 |  -eid D_20240913_103259_440 -runtype ProcRunner -ppid 14856
+
+2024-09-13 10:33:03,330 [T1] DEBUG Config
+Refresh Language Information
+
+2024-09-13 10:33:03,331 [T1] DEBUG LibraryManager
+LibraryManager Initialized.
+
+2024-09-13 10:33:58,314 [T7] INFO  JobService
+Start Job: T_보고서만들기 (Foreground)
+{
+  "JobType": 1,
+  "State": 0,
+  "IsRunning": false,
+  "ResultMessage": null,
+  "StartTime": "2024-09-13 10:33:58",
+  "EndTime": null,
+  "JobId": "Designer_20240913_103357_954",
+  "UserAuthentication": null,
+  "ProcessPath": "C:\\Users\\3class_13\\Documents\\Brity RPA Projects\\miniproject\\T_보고서만들기.proc",
+  "ProcessId": "048d5a11-d4e8-4419-849c-c5ad699f8305",
+  "ProcessVer": "1.0",
+  "ProcessArgs": "Sc88f668d977746ae837f60997f544f31;;False",
+  "RequesterType": 3,
+  "RequesterId": "designer",
+  "RequesterPID": 14856,
+  "OptionsJsonString": null,
+  "TimeoutSec": 0,
+  "EngineID": "D_20240913_103259_440",
+  "EnginePID": 0,
+  "EngineRecommededVersion": "",
+  "JobWorkDir": "C:\\Users\\3class_13\\Documents\\Brity RPA Projects\\miniproject\\Histories\\20240913_103358_T_보고서만들기_Designer_20240913_103357_954",
+  "JobLogDir": "C:\\Users\\3class_13\\Documents\\Brity RPA Projects\\miniproject\\Histories\\20240913_103358_T_보고서만들기_Designer_20240913_103357_954\\Log",
+  "JobScreenshotDir": "C:\\Users\\3class_13\\Documents\\Brity RPA Projects\\miniproject\\Histories\\20240913_103358_T_보고서만들기_Designer_20240913_103357_954\\Log\\Screenshot"
+}
+
+2024-09-13 10:33:58,452 [T9] DEBUG JobService
+Waiting library loading...
+
+2024-09-13 10:33:58,454 [T9] DEBUG Config
+Reload User Settings
+
+2024-09-13 10:33:58,455 [T9] INFO  JobService
+Config Loading Completed.
+
+2024-09-13 10:33:58,455 [T9] DEBUG JobService
+Config Loading Time: 2 ms.
+
+2024-09-13 10:33:58,460 [T9] DEBUG JobService
+Check Shared Token
+
+2024-09-13 10:33:58,462 [T9] DEBUG TokenManager
+Load connection token
+
+2024-09-13 10:33:58,463 [T9] DEBUG TokenManager
+Clear Connection Token - No Shared Token
+
+2024-09-13 10:33:58,489 [T1] DEBUG ServerInformationClient
+Request server feature list
+
+2024-09-13 10:33:58,697 [T1] INFO  ServerInformationClient
+Server feature update successful
+
+2024-09-13 10:33:58,701 [T1] INFO  ServerInformationClient
+It takes 222 milliseconds to try to update the server feature list.
+
+2024-09-13 10:33:58,701 [T1] INFO  Config
+Update server features to config.
+
+2024-09-13 10:33:58,725 [T9] INFO  JobService
+Shared Token - No Token
+
+2024-09-13 10:33:58,731 [T9] INFO  JobManager
+Create JobManager instance for job T_보고서만들기(Designer_20240913_103357_954)
+
+2024-09-13 10:33:58,737 [T9] INFO  JobRequest
+Job ID : Designer_20240913_103357_954
+Project Path  : C:\Users\3class_13\Documents\Brity RPA Projects\miniproject\miniproject.proj
+Process Name  : T_보고서만들기
+Engine Mode   : Designer
+Requester Type: Designer
+Requester PID : 14856
+
+2024-09-13 10:33:58,740 [T10] INFO  JobRequest
+Start Callback Sender
+
+2024-09-13 10:33:58,740 [T10] DEBUG JobRequest
+Step Callback Interval: 500
+
+2024-09-13 10:33:58,779 [T9] DEBUG ProjectManager
+Set Project Information
+
+2024-09-13 10:33:58,807 [T9] INFO  PlayOptionManager
+PlayOption
+- Step Interval : 1
+- Disable DrawBounds : False
+- Invoke First : False
+- Allow Upload of DumpScreen results : False
+
+2024-09-13 10:33:58,809 [T9] INFO  JobRunner
+Initialize Script Engine
+
+2024-09-13 10:33:58,826 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Initializing
+##############################################################
+
+
+2024-09-13 10:33:58,844 [T10] DEBUG JobRequest
+Callback - State: Initializing
+
+
+2024-09-13 10:33:59,645 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Ready
+##############################################################
+
+
+2024-09-13 10:33:59,654 [T10] DEBUG JobRequest
+Callback - State: Ready
+
+
+2024-09-13 10:33:59,657 [T9] INFO  JobRunnerHook
+HotKey Hook Started
+
+2024-09-13 10:33:59,658 [T9] INFO  JobRequest
+##############################################################
+### STATE: Starting
+##############################################################
+
+
+2024-09-13 10:33:59,659 [T16-ScriptEngine] INFO  JobRunner
+RunProcess start
+
+2024-09-13 10:33:59,661 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Running
+##############################################################
+
+
+2024-09-13 10:33:59,661 [T16-ScriptEngine] INFO  JobRequest
+Last job life cycle state: Running
+
+2024-09-13 10:33:59,670 [T10] DEBUG JobRequest
+Callback - State: Starting
+
+
+2024-09-13 10:33:59,671 [T10] DEBUG JobRequest
+Callback - State: Running
+
+
+2024-09-13 10:34:00,758 [T16-ScriptEngine] DEBUG ScreenCapture
+DirectX Screen Capture Initialized.
+
+2024-09-13 10:34:00,779 [T16-ScriptEngine] DEBUG JobRunner
+DirectX ScreenCapture Checked.
+
+2024-09-13 10:34:00,812 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartProcess - T_보고서만들기
+##############################################################
+048d5a11-d4e8-4419-849c-c5ad699f8305
+T_보고서만들기
+
+
+2024-09-13 10:34:00,867 [T16-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_보고서만들기
+**************************************************************
+ - STEP 1: Sc88f668d977746ae837f60997f544f31 (1/56) - (1/56)
+ - [1] OpenExcel
+
+
+2024-09-13 10:34:02,693 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 2: S91c795368dd645fead9f9de460ec4c2e (2/56) - (2/56)
+ - [2] OpenExcel
+
+
+2024-09-13 10:34:04,204 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 3: Sfdc46985f0f34c33a61640db02b7d780 (3/56) - (3/56)
+ - [3] ReadString
+
+
+2024-09-13 10:34:04,311 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 4: S80cc427ab1a440839ef505200aee4a12 (4/56) - (4/56)
+ - [4] WriteString
+
+
+2024-09-13 10:34:04,388 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 5: S2e3a43296bcd4397afc7d035dc7d4662 (5/56) - (5/56)
+ - [5] ReadRange
+
+
+2024-09-13 10:34:04,811 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 6: S03acdaaa8ef44090be4172b7f3622a39 (6/56) - (6/56)
+ - [6] WriteRange
+
+
+2024-09-13 10:34:04,917 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 7: S31c92a0bb20c405288f3de990c79b749 (7/56) - (7/56)
+ - [7] ReadString
+
+
+2024-09-13 10:34:04,977 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 8: Sad68a4f5e32042658e3116b4074243ec (8/56) - (8/56)
+ - [8] WriteString
+
+
+2024-09-13 10:34:05,053 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 9: S0dd98e51927c420db42c721761b6f0ea (9/56) - (9/56)
+ - [9] ReadRange
+
+
+2024-09-13 10:34:05,130 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 10: Sef38fb5691c340f4845e2bb7c644cc8b (10/56) - (10/56)
+ - [10] WriteRange
+
+
+2024-09-13 10:34:05,191 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 11: Sc2b80fc745c94f0795d6eedaba215da0 (11/56) - (11/56)
+ - [11] ReadString
+
+
+2024-09-13 10:34:05,238 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 12: Sd6781213ff254db98b270f6a5673643c (12/56) - (12/56)
+ - [12] WriteString
+
+
+2024-09-13 10:34:05,300 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 13: S8267266f288e46b6a895afc34461c608 (13/56) - (13/56)
+ - [13] ReadRange
+
+
+2024-09-13 10:34:05,393 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 14: S0a5445b7c00f4cb48146cda7b14bc663 (14/56) - (14/56)
+ - [14] WriteRange
+
+
+2024-09-13 10:34:05,457 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 15: Saed1f117dead4350bda13252ec598124 (15/56) - (15/56)
+ - [15] ReadString
+
+
+2024-09-13 10:34:05,504 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 16: Sca545f9b884e483b9b7f7149e6a13c6f (16/56) - (16/56)
+ - [16] WriteString
+
+
+2024-09-13 10:34:05,551 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 17: S06419851ec8249a7aa9ae1a5dd9dc75e (17/56) - (17/56)
+ - [17] ReadRange
+
+
+2024-09-13 10:34:05,642 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 18: Sa3516d7b25a0448286ce0eebd7205743 (18/56) - (18/56)
+ - [18] WriteRange
+
+
+2024-09-13 10:34:05,689 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 19: Sa15d229280c04a19bdf9485432ef1b15 (19/56) - (19/56)
+ - [19] ReadString
+
+
+2024-09-13 10:34:05,750 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 20: Sf1b2060779b14865a2232d1d044a7858 (20/56) - (20/56)
+ - [20] WriteString
+
+
+2024-09-13 10:34:05,811 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 21: S683c21abba954e98b688133631cad148 (21/56) - (21/56)
+ - [21] ReadRange
+
+
+2024-09-13 10:34:05,923 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 22: Se5f1619c13cf4b59b72d4ee826d3a0c1 (22/56) - (22/56)
+ - [22] WriteRange
+
+
+2024-09-13 10:34:05,970 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 23: Sed26a767f57b4a159db7fd7f10e76792 (23/56) - (23/56)
+ - [23] ReadString
+
+
+2024-09-13 10:34:06,017 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 24: Sb51dc32e18ce44b2a256dd4f5dd64ef2 (24/56) - (24/56)
+ - [24] WriteString
+
+
+2024-09-13 10:34:06,077 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 25: S5815c1086393425897c748821a81020e (25/56) - (25/56)
+ - [25] ReadRange
+
+
+2024-09-13 10:34:06,169 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 26: S252b67c1577540fb91e62c21180c1e7e (26/56) - (26/56)
+ - [26] WriteRange
+
+
+2024-09-13 10:34:06,230 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 27: S5c96afd90f754e24abcb5e7e7130d2b5 (27/56) - (27/56)
+ - [27] ReadString
+
+
+2024-09-13 10:34:06,276 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 28: S4215bedf70bf443587cea5a28a1e1658 (28/56) - (28/56)
+ - [28] WriteString
+
+
+2024-09-13 10:34:06,338 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 29: S45f8773bc6a845879630e42d7d4621f5 (29/56) - (29/56)
+ - [29] ReadRange
+
+
+2024-09-13 10:34:06,432 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 30: S1c3387f7672e401f9e922f6c7b88337c (30/56) - (30/56)
+ - [30] WriteRange
+
+
+2024-09-13 10:34:06,480 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 31: S6e767d6164d24a8faebbb2dcae0508a2 (31/56) - (31/56)
+ - [31] CloseExcel
+
+
+2024-09-13 10:34:06,516 [T16-ScriptEngine] DEBUG ExcelBase
+DisposeExcel
+
+2024-09-13 10:34:06,605 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 32: S57a2b8f21d3c456d97c2978bcf7ef3ad (32/56) - (32/56)
+ - [32] SendShortCut
+
+
+2024-09-13 10:34:06,967 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 33: Sa8943106aab64d7da3ef079dca58bb8f (33/56) - (33/56)
+ - [33] SendShortCut
+
+
+2024-09-13 10:34:07,410 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 34: S6a054fd81a124103aacf0ff10f34a9dd (34/56) - (34/56)
+ - [34] Click
+
+
+2024-09-13 10:34:07,546 [T11] INFO  UIAEventHandler
+Start UIA event handler
+
+2024-09-13 10:34:08,555 [T11] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-09-13 10:34:08,555 [T11] INFO  UIAEventHandler
+waiting for 935 msec during the screen structure is changing.
+
+2024-09-13 10:34:08,828 [T11] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-09-13 10:34:08,828 [T11] INFO  UIAEventHandler
+waiting for 111 msec during the screen structure is changing.
+
+2024-09-13 10:34:09,492 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 35: Se5b38612384249868b0d2adc73a6edbd (35/56) - (35/56)
+ - [35] WaitAppear
+
+
+2024-09-13 10:34:11,580 [T19] WARN  WinApi
+SetForeground Failed.
+ Attach ThreadInput - True
+ Foreground Window - HWND: 395742, Title: 그림 삽입, PID: 16332, ProcessName: EXCEL
+ Target Window - HWND: 2361042, Title: 보고서(템플릿).xlsx - Excel, PID: 16332, ProcessName: EXCEL
+
+2024-09-13 10:34:11,844 [T19] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-09-13 10:34:11,844 [T19] INFO  UIAEventHandler
+waiting for 108 msec during the screen structure is changing.
+
+2024-09-13 10:34:11,859 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 36: S61548d0817f54a0b9b8519c0db79b81e (36/56) - (36/56)
+ - [36] Click
+
+
+2024-09-13 10:34:12,744 [T19] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-09-13 10:34:12,744 [T19] INFO  UIAEventHandler
+waiting for 872 msec during the screen structure is changing.
+
+2024-09-13 10:34:13,767 [T19] WARN  WinApi
+SetForeground Failed.
+ Attach ThreadInput - True
+ Foreground Window - HWND: 395742, Title: 그림 삽입, PID: 16332, ProcessName: EXCEL
+ Target Window - HWND: 2361042, Title: 보고서(템플릿).xlsx - Excel, PID: 16332, ProcessName: EXCEL
+
+2024-09-13 10:34:14,018 [T19] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-09-13 10:34:14,018 [T19] INFO  UIAEventHandler
+waiting for 83 msec during the screen structure is changing.
+
+2024-09-13 10:34:14,844 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 37: Sdd2df94576b94cfc803f39339c9717e7 (37/56) - (37/56)
+ - [37] SetText
+
+
+2024-09-13 10:34:14,925 [T11] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-09-13 10:34:14,925 [T11] INFO  UIAEventHandler
+waiting for 40 msec during the screen structure is changing.
+
+2024-09-13 10:34:16,100 [T11] WARN  WinApi
+SetForeground Failed.
+ Attach ThreadInput - True
+ Foreground Window - HWND: 395742, Title: 그림 삽입, PID: 16332, ProcessName: EXCEL
+ Target Window - HWND: 2361042, Title: 보고서(템플릿).xlsx - Excel, PID: 16332, ProcessName: EXCEL
+
+2024-09-13 10:34:16,350 [T11] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-09-13 10:34:16,350 [T11] INFO  UIAEventHandler
+waiting for 84 msec during the screen structure is changing.
+
+2024-09-13 10:34:17,068 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 38: Sac3040dcf47c45f9b1b3a3698f539aa5 (38/56) - (38/56)
+ - [38] Click
+
+
+2024-09-13 10:34:17,254 [T19] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-09-13 10:34:17,254 [T19] INFO  UIAEventHandler
+waiting for 171 msec during the screen structure is changing.
+
+2024-09-13 10:34:18,269 [T19] WARN  WinApi
+SetForeground Failed.
+ Attach ThreadInput - True
+ Foreground Window - HWND: 395742, Title: 그림 삽입, PID: 16332, ProcessName: EXCEL
+ Target Window - HWND: 2361042, Title: 보고서(템플릿).xlsx - Excel, PID: 16332, ProcessName: EXCEL
+
+2024-09-13 10:34:18,895 [T19] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-09-13 10:34:18,895 [T19] INFO  UIAEventHandler
+waiting for 91 msec during the screen structure is changing.
+
+2024-09-13 10:34:19,691 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 39: Se500898f34ed49fea5978af3d27e2c3b (39/56) - (39/56)
+ - [39] KeyInput
+
+
+2024-09-13 10:34:21,820 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 40: S6237eddf0de64c979b17329b773672af (40/56) - (40/56)
+ - [40] Click
+
+
+2024-09-13 10:34:22,860 [T19] WARN  WinApi
+SetForeground Failed.
+ Attach ThreadInput - True
+ Foreground Window - HWND: 395742, Title: 그림 삽입, PID: 16332, ProcessName: EXCEL
+ Target Window - HWND: 2361042, Title: 보고서(템플릿).xlsx - Excel, PID: 16332, ProcessName: EXCEL
+
+2024-09-13 10:34:23,109 [T19] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-09-13 10:34:23,109 [T19] INFO  UIAEventHandler
+waiting for 92 msec during the screen structure is changing.
+
+2024-09-13 10:34:23,921 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 41: S7c029db000614e71968196b03b60f384 (41/56) - (41/56)
+ - [41] KeyInput
+
+
+2024-09-13 10:34:27,483 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 42: Sf193e9bee9f84e9ea07032f3dc845e48 (42/56) - (42/56)
+ - [42] KeyInput
+
+
+2024-09-13 10:34:29,600 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 43: Sa3a0737886cc4b5184ef9fb4f1963839 (43/56) - (43/56)
+ - [43] SelectRange
+
+
+2024-09-13 10:34:29,690 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 44: S36b916a72e3043a78c711230a439be99 (44/56) - (44/56)
+ - [44] KeyInput
+
+
+2024-09-13 10:34:31,806 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 45: S2e6ebf40d96e4ef2b328bbb8c2523221 (45/56) - (45/56)
+ - [45] KeyInput
+
+
+2024-09-13 10:34:33,681 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 46: Se55dad707a1e45f5beb984eec21b4562 (46/56) - (46/56)
+ - [46] Click
+
+
+2024-09-13 10:34:34,027 [T19] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-09-13 10:34:34,027 [T19] INFO  UIAEventHandler
+waiting for 82 msec during the screen structure is changing.
+
+2024-09-13 10:34:34,644 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 47: S66e4864722414a9b9f566cc9f25364ea (47/56) - (47/56)
+ - [47] KeyInput
+
+
+2024-09-13 10:34:36,757 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 48: S15cd9274e5f34950b70fa5440fe086ef (48/56) - (48/56)
+ - [48] SelectRange
+
+
+2024-09-13 10:34:36,863 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 49: S3a946a3a4ad34963a9ebaeeab9cdd808 (49/56) - (49/56)
+ - [49] KeyInput
+
+
+2024-09-13 10:34:38,979 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 50: Sbada054bc84a4f6e901ed3ad498ad4a9 (50/56) - (50/56)
+ - [50] KeyInput
+
+
+2024-09-13 10:34:41,091 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 51: S4898a9fba1814392be4b2050d6ea2d91 (51/56) - (51/56)
+ - [51] SendShortCut
+
+
+2024-09-13 10:34:41,395 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 52: S6a29816a15f043b1a57614e3fefefdd1 (52/56) - (52/56)
+ - [52] SendShortCut
+
+
+2024-09-13 10:34:41,804 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 53: Scd6e23154aa14e509f8ac6aa31dd2f7f (53/56) - (53/56)
+ - [53] SendShortCut
+
+
+2024-09-13 10:34:42,107 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 54: S30530dc241f54fa5b0a4a5c54baa216f (54/56) - (54/56)
+ - [54] SendShortCut
+
+
+2024-09-13 10:34:42,443 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 55: S5196f8feda4d44af928235a11c83d8e1 (55/56) - (55/56)
+ - [55] SaveExcel
+
+
+2024-09-13 10:34:42,556 [T16-ScriptEngine] INFO  JobRequest
+ - STEP 56: S010037bc07f34d52a677e7f5da5e1ff3 (56/56) - (56/56)
+ - [56] CloseExcel
+
+
+2024-09-13 10:34:42,579 [T16-ScriptEngine] DEBUG ExcelBase
+DisposeExcel
+
+2024-09-13 10:34:44,062 [T16-ScriptEngine] INFO  JobRunner
+[PASS] TASK: T_보고서만들기
+
+2024-09-13 10:34:44,067 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndProcess - T_보고서만들기
+##############################################################
+048d5a11-d4e8-4419-849c-c5ad699f8305
+T_보고서만들기
+
+
+2024-09-13 10:34:44,082 [T16-ScriptEngine] INFO  JobRunner
+RunProcess - Job Result: {}
+
+2024-09-13 10:34:44,083 [T16-ScriptEngine] DEBUG JobManager
+Set Result State: Completed
+
+2024-09-13 10:34:44,088 [T16-ScriptEngine] INFO  JobRunner
+Make report.
+
+2024-09-13 10:34:44,131 [T16-ScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2024-09-13 10:34:44,132 [T16-ScriptEngine] DEBUG JobRunner
+OnProcessCompleted
+
+2024-09-13 10:34:44,132 [T19] DEBUG JobRunner
+Start timer for checking the job to be completed.
+
+2024-09-13 10:34:44,132 [T16-ScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2024-09-13 10:34:44,134 [T16-ScriptEngine] DEBUG JobRunner
+Remove all libraries
+
+2024-09-13 10:34:44,136 [T16-ScriptEngine] DEBUG NetPlayer
+WebPlayer OnDispose
+
+2024-09-13 10:34:44,137 [T16-ScriptEngine] DEBUG WebPlayer
+WebPlayer OnDispose : Do Nothing
+
+2024-09-13 10:34:44,138 [T16-ScriptEngine] DEBUG UIAEventHandler
+Stop UIA event handler
+
+2024-09-13 10:34:44,147 [T16-ScriptEngine] DEBUG UiaAppHelper
+WinHelper DisposeAppList Count: 0
+
+2024-09-13 10:34:44,147 [T16-ScriptEngine] INFO  JobRunner
+All Resources Clear
+
+2024-09-13 10:34:44,150 [T16-ScriptEngine] DEBUG JobRunner
+OnCompleted
+
+2024-09-13 10:34:44,150 [T16-ScriptEngine] DEBUG JobRunner
+SendJobResult: Completed
+
+2024-09-13 10:34:44,150 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Completed
+##############################################################
+{}
+
+
+2024-09-13 10:34:44,150 [T16-ScriptEngine] INFO  JobRequest
+Last job life cycle state: Completed
+
+2024-09-13 10:34:44,161 [T10] DEBUG JobRequest
+Callback - State: Completed
+{}
+
+2024-09-13 10:34:44,161 [T16-ScriptEngine] INFO  JobRequest
+##############################################################
+### JOB COMPLETED
+##############################################################
+
+
+2024-09-13 10:34:44,179 [T10] INFO  JobRequest
+Callback - EngineClosed
+
+2024-09-13 10:34:44,179 [T10] INFO  JobService
+Disconnect agent service
+
+2024-09-13 10:34:44,181 [T10] DEBUG JobRequest
+End of Callback Sender
+
+2024-09-13 10:34:44,191 [T16-ScriptEngine] INFO  JobRunner
+RunProcess end
+
+2024-09-13 10:34:44,191 [T1] INFO  JobService
+Exit - Shutdown Engine BOT
+

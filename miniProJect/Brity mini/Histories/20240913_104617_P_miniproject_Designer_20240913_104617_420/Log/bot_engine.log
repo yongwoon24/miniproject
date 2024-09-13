@@ -1,0 +1,598 @@
+﻿2024-09-13 10:46:02,356 [T1] INFO  EngineStarter
+BOT Engine Start - v3.1.100.11228 at 2024-09-13 오전 10:46:02
+EngineID: D_20240913_104601_456
+PID : 6788
+PPID: 14856
+Working Directory: C:\Users\3class_13\AppData\Roaming\Brity RPA Designer
+
+2024-09-13 10:46:02,376 [T1] INFO  EngineStarter
+System Language: ko-KR
+Resolution: 1920 x 1200
+
+2024-09-13 10:46:02,616 [T1] INFO  Config
+Initialize Config
+
+2024-09-13 10:46:02,661 [T1] DEBUG Config
+Config Loaded
+
+2024-09-13 10:46:02,662 [T1] DEBUG Config
+Backup config file.
+
+2024-09-13 10:46:02,672 [T1] INFO  Config
+Orchestrator Service => https://bwrpa.samsungsds.com:8777
+
+2024-09-13 10:46:02,676 [T1] INFO  Config
+Initialize Resource Config
+
+2024-09-13 10:46:02,703 [T1] DEBUG Config
+Refresh Language Information
+
+2024-09-13 10:46:02,778 [T1] INFO  Config
+All Config Initialized.
+
+2024-09-13 10:46:02,786 [T1] DEBUG KeyManager
+Initialize KeyManager
+
+2024-09-13 10:46:02,788 [T1] DEBUG KeyManager
+Load device unique id.
+
+2024-09-13 10:46:02,795 [T1] DEBUG KeyManager
+Device ID is initialized.
+
+2024-09-13 10:46:02,837 [T1] INFO  CertLicenseClient
+Initialize certificate.
+
+2024-09-13 10:46:02,840 [T1] DEBUG CertLicenseClient
+Set Security Protocol: Tls12
+
+2024-09-13 10:46:02,872 [T5] DEBUG JobService
+Connect to agent service
+
+2024-09-13 10:46:02,905 [T5] DEBUG JobService
+JobService URL : net.tcp://127.0.0.1:59001/rpa/agent
+
+2024-09-13 10:46:02,905 [T5] DEBUG JobService
+Open connection
+
+2024-09-13 10:46:02,908 [T1] DEBUG ApplicationInitializer
+InitMode: Thread
+
+2024-09-13 10:46:02,917 [T1] INFO  LibraryManager
+Load Libraries - Started
+
+2024-09-13 10:46:02,919 [T5] DEBUG JobService
+Register engine to agent
+
+2024-09-13 10:46:02,930 [T5] DEBUG JobService
+Engine is connected to agent service.
+
+2024-09-13 10:46:02,930 [T5] DEBUG JobService
+Owner Process PID: 14856
+
+2024-09-13 10:46:02,931 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Chrome
+
+2024-09-13 10:46:02,932 [T5] INFO  JobService
+Start monitoring owner process is terminated.
+
+2024-09-13 10:46:03,230 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Desktop
+
+2024-09-13 10:46:03,433 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Excel
+
+2024-09-13 10:46:03,585 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Flow
+
+2024-09-13 10:46:03,712 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.IE
+
+2024-09-13 10:46:03,804 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageConverter
+
+2024-09-13 10:46:03,858 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageRecognition
+
+2024-09-13 10:46:04,037 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.MicrosoftOCR
+
+2024-09-13 10:46:04,101 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Net
+
+2024-09-13 10:46:04,199 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Orchestra
+
+2024-09-13 10:46:04,291 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ProcessFlow
+
+2024-09-13 10:46:04,396 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.SAP
+
+2024-09-13 10:46:04,477 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Web
+
+2024-09-13 10:46:04,595 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Win
+
+2024-09-13 10:46:04,716 [T1] INFO  ScreenCapture
+Default Screen Capture Bounds: 0,0,1920,1200
+
+2024-09-13 10:46:04,745 [T1] DEBUG AddInLoader
+Load Assembly : BrityRPA.AddIn.NativeApp
+
+2024-09-13 10:46:04,852 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Outlook
+
+2024-09-13 10:46:04,942 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Pdf
+
+2024-09-13 10:46:05,022 [T1] DEBUG LibraryManager
+Load Library - Chrome
+
+2024-09-13 10:46:05,037 [T1] DEBUG LibraryManager
+Load Library - Desktop
+
+2024-09-13 10:46:05,052 [T1] DEBUG LibraryManager
+Load Library - Excel
+
+2024-09-13 10:46:05,067 [T1] DEBUG LibraryManager
+Load Library - Flow
+
+2024-09-13 10:46:05,082 [T1] DEBUG LibraryManager
+Load Library - IE
+
+2024-09-13 10:46:05,097 [T1] DEBUG LibraryManager
+Load Library - ImageConverter
+
+2024-09-13 10:46:05,112 [T1] DEBUG LibraryManager
+Load Library - ImageRecognition
+
+2024-09-13 10:46:05,127 [T1] DEBUG LibraryManager
+Load Library - MicrosoftOCR
+
+2024-09-13 10:46:05,142 [T1] DEBUG LibraryManager
+Load Library - NativeApp
+
+2024-09-13 10:46:05,157 [T1] DEBUG LibraryManager
+Load Library - Net
+
+2024-09-13 10:46:05,171 [T1] DEBUG LibraryManager
+Load Library - Orchestra
+
+2024-09-13 10:46:05,186 [T1] DEBUG LibraryManager
+Load Library - Outlook
+
+2024-09-13 10:46:05,201 [T1] DEBUG LibraryManager
+Load Library - Pdf
+
+2024-09-13 10:46:05,216 [T1] DEBUG LibraryManager
+Load Library - SAP
+
+2024-09-13 10:46:05,231 [T1] DEBUG LibraryManager
+Load Library - Web
+
+2024-09-13 10:46:05,246 [T1] DEBUG LibraryManager
+Load Library - Win
+
+2024-09-13 10:46:05,261 [T1] DEBUG LibraryManager
+Load Library - WorkFlow
+
+2024-09-13 10:46:05,266 [T1] DEBUG LibraryManager
+Load built-in script libraries
+
+2024-09-13 10:46:05,521 [T1] INFO  LibraryManager
+Load Libraries - Completed.
+
+2024-09-13 10:46:05,534 [T1] INFO  App
+Launch Arguments: Total: 6 |  -eid D_20240913_104601_456 -runtype ProcRunner -ppid 14856
+
+2024-09-13 10:46:05,534 [T1] DEBUG Config
+Refresh Language Information
+
+2024-09-13 10:46:05,535 [T1] DEBUG LibraryManager
+LibraryManager Initialized.
+
+2024-09-13 10:46:17,795 [T6] INFO  JobService
+Start Job: P_miniproject (Foreground)
+{
+  "JobType": 1,
+  "State": 0,
+  "IsRunning": false,
+  "ResultMessage": null,
+  "StartTime": "2024-09-13 10:46:17",
+  "EndTime": null,
+  "JobId": "Designer_20240913_104617_420",
+  "UserAuthentication": null,
+  "ProcessPath": "C:\\Users\\3class_13\\Documents\\Brity RPA Projects\\miniproject\\P_miniproject.proc",
+  "ProcessId": "ff7e737e-6361-4c0a-a1fa-18ed34505f73",
+  "ProcessVer": "1.0",
+  "ProcessArgs": "S104f03f827f44e8f81937d1aa8383818;;False",
+  "RequesterType": 3,
+  "RequesterId": "designer",
+  "RequesterPID": 14856,
+  "OptionsJsonString": null,
+  "TimeoutSec": 0,
+  "EngineID": "D_20240913_104601_456",
+  "EnginePID": 0,
+  "EngineRecommededVersion": "",
+  "JobWorkDir": "C:\\Users\\3class_13\\Documents\\Brity RPA Projects\\miniproject\\Histories\\20240913_104617_P_miniproject_Designer_20240913_104617_420",
+  "JobLogDir": "C:\\Users\\3class_13\\Documents\\Brity RPA Projects\\miniproject\\Histories\\20240913_104617_P_miniproject_Designer_20240913_104617_420\\Log",
+  "JobScreenshotDir": "C:\\Users\\3class_13\\Documents\\Brity RPA Projects\\miniproject\\Histories\\20240913_104617_P_miniproject_Designer_20240913_104617_420\\Log\\Screenshot"
+}
+
+2024-09-13 10:46:17,952 [T9] DEBUG JobService
+Waiting library loading...
+
+2024-09-13 10:46:17,954 [T9] DEBUG Config
+Reload User Settings
+
+2024-09-13 10:46:17,955 [T9] INFO  JobService
+Config Loading Completed.
+
+2024-09-13 10:46:17,955 [T9] DEBUG JobService
+Config Loading Time: 2 ms.
+
+2024-09-13 10:46:17,961 [T9] DEBUG JobService
+Check Shared Token
+
+2024-09-13 10:46:17,962 [T9] DEBUG TokenManager
+Load connection token
+
+2024-09-13 10:46:17,963 [T9] DEBUG TokenManager
+Clear Connection Token - No Shared Token
+
+2024-09-13 10:46:17,987 [T1] DEBUG ServerInformationClient
+Request server feature list
+
+2024-09-13 10:46:18,068 [T1] INFO  ServerInformationClient
+Server feature update successful
+
+2024-09-13 10:46:18,072 [T1] INFO  ServerInformationClient
+It takes 93 milliseconds to try to update the server feature list.
+
+2024-09-13 10:46:18,072 [T1] INFO  Config
+Update server features to config.
+
+2024-09-13 10:46:18,090 [T9] INFO  JobService
+Shared Token - No Token
+
+2024-09-13 10:46:18,095 [T9] INFO  JobManager
+Create JobManager instance for job P_miniproject(Designer_20240913_104617_420)
+
+2024-09-13 10:46:18,101 [T9] INFO  JobRequest
+Job ID : Designer_20240913_104617_420
+Project Path  : C:\Users\3class_13\Documents\Brity RPA Projects\miniproject\miniproject.proj
+Process Name  : P_miniproject
+Engine Mode   : Designer
+Requester Type: Designer
+Requester PID : 14856
+
+2024-09-13 10:46:18,103 [T10] INFO  JobRequest
+Start Callback Sender
+
+2024-09-13 10:46:18,103 [T10] DEBUG JobRequest
+Step Callback Interval: 500
+
+2024-09-13 10:46:18,143 [T9] DEBUG ProjectManager
+Set Project Information
+
+2024-09-13 10:46:18,167 [T9] INFO  PlayOptionManager
+PlayOption
+- Step Interval : 1
+- Disable DrawBounds : False
+- Invoke First : False
+- Allow Upload of DumpScreen results : False
+
+2024-09-13 10:46:18,168 [T9] INFO  JobRunner
+Initialize Script Engine
+
+2024-09-13 10:46:18,184 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Initializing
+##############################################################
+
+
+2024-09-13 10:46:18,211 [T10] DEBUG JobRequest
+Callback - State: Initializing
+
+
+2024-09-13 10:46:19,050 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Ready
+##############################################################
+
+
+2024-09-13 10:46:19,058 [T10] DEBUG JobRequest
+Callback - State: Ready
+
+
+2024-09-13 10:46:19,061 [T9] INFO  JobRunnerHook
+HotKey Hook Started
+
+2024-09-13 10:46:19,062 [T9] INFO  JobRequest
+##############################################################
+### STATE: Starting
+##############################################################
+
+
+2024-09-13 10:46:19,064 [T14-ScriptEngine] INFO  JobRunner
+RunProcess start
+
+2024-09-13 10:46:19,065 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Running
+##############################################################
+
+
+2024-09-13 10:46:19,066 [T14-ScriptEngine] INFO  JobRequest
+Last job life cycle state: Running
+
+2024-09-13 10:46:19,074 [T10] DEBUG JobRequest
+Callback - State: Starting
+
+
+2024-09-13 10:46:19,089 [T10] DEBUG JobRequest
+Callback - State: Running
+
+
+2024-09-13 10:46:20,211 [T14-ScriptEngine] DEBUG ScreenCapture
+DirectX Screen Capture Initialized.
+
+2024-09-13 10:46:20,241 [T14-ScriptEngine] DEBUG JobRunner
+DirectX ScreenCapture Checked.
+
+2024-09-13 10:46:20,266 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartProcess - P_miniproject
+##############################################################
+ff7e737e-6361-4c0a-a1fa-18ed34505f73
+P_miniproject
+
+
+2024-09-13 10:46:20,316 [T14-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: P_miniproject
+**************************************************************
+ - STEP 1: S104f03f827f44e8f81937d1aa8383818 (1/4) - (1/97)
+ - [1] RunTask
+
+
+2024-09-13 10:46:20,421 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartTask - T_데이터수집
+##############################################################
+ee524be9-b535-4438-970f-ff65b68d76f5
+T_데이터수집
+
+
+2024-09-13 10:46:20,443 [T14-ScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_데이터수집
+**************************************************************
+ - STEP 2: S1513eedce7524517b10562f10a4b294a (1/19) - (2/97)
+ - [1] ChromeOpen
+
+
+2024-09-13 10:46:23,395 [T8] DEBUG ChromeRemoteConnect
+GetRemoteBrowserUsingEndPoint Fail : 하나 이상의 오류가 발생했습니다.
+
+2024-09-13 10:46:23,454 [T8] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-09-13 10:46:26,890 [T8] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-09-13 10:46:28,345 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 3: S887842f281a34fe1886d7a78e930d636 (2/19) - (3/97)
+ - [2] For
+
+
+2024-09-13 10:46:28,360 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 4: S0c07a50c7041425cbeffca7f12015e57 (3/19) - (4/97)
+ - [3] ChromeClick
+
+
+2024-09-13 10:46:28,829 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 5: Se834edc24adc4b06b1f73d44e64fba48 (4/19) - (5/97)
+ - [4] ChromeClick
+
+
+2024-09-13 10:46:29,054 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 6: Sebc3a96283e44912a0d4b51f911cb416 (5/19) - (6/97)
+ - [5] WaitAppear
+
+
+2024-09-13 10:46:30,236 [T4] INFO  UIAEventHandler
+Start UIA event handler
+
+2024-09-13 10:46:31,239 [T4] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-09-13 10:46:31,239 [T4] INFO  UIAEventHandler
+waiting for 958 msec during the screen structure is changing.
+
+2024-09-13 10:46:39,694 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 7: S5226433a64294aa4999448d5b7c76b02 (6/19) - (7/97)
+ - [6] Click
+
+
+2024-09-13 10:46:40,091 [T8] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-09-13 10:46:40,091 [T8] INFO  UIAEventHandler
+waiting for 89 msec during the screen structure is changing.
+
+2024-09-13 10:46:40,751 [T14-ScriptEngine] INFO  JobRequest
+ - STEP 8: S0aebc450757745eb9f0707e18431f967 (7/19) - (8/97)
+ - [7] SetText
+
+
+2024-09-13 10:46:41,940 [T21] DEBUG UIAEventHandler
+UI Structure Changed Count: 1
+
+2024-09-13 10:46:42,047 [T21] INFO  UIAEventHandler
+waiting for 1253 msec during the screen structure is changing.
+
+2024-09-13 10:46:54,146 [T14-ScriptEngine] WARN  ScriptSupport
+[CATCH_STEP_EXCEPTION] Process: P_miniproject
+Task: T_데이터수집
+Step: SetText (7/19)
+
+Error: 대상 앱이 현재 화면에 없습니다.
+대상 앱이 열려 있는지 확인 해주세요.
+
+Application: chrome
+App Object Type: Window
+
+2024-09-13 10:46:54,148 [T14-ScriptEngine] FINE  JobRunner
+RunTask ExceptionOccured. TASK: T_데이터수집 => 대상 앱이 현재 화면에 없습니다.
+대상 앱이 열려 있는지 확인 해주세요.
+
+Application: chrome
+App Object Type: Window
+
+2024-09-13 10:46:54,163 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndTask - T_데이터수집
+##############################################################
+ee524be9-b535-4438-970f-ff65b68d76f5
+T_데이터수집
+
+
+2024-09-13 10:46:54,165 [T14-ScriptEngine] DEBUG JobRunner
+RunTask ExceptionOccured. TASK: P_miniproject => Process: P_miniproject
+Task: T_데이터수집
+Step: SetText (7/19)
+대상 앱이 현재 화면에 없습니다.
+대상 앱이 열려 있는지 확인 해주세요.
+
+Application: chrome
+App Object Type: Window
+
+2024-09-13 10:46:54,165 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndProcess - P_miniproject
+##############################################################
+ff7e737e-6361-4c0a-a1fa-18ed34505f73
+P_miniproject
+
+
+2024-09-13 10:46:54,176 [T14-ScriptEngine] ERROR JobRunner
+Process: P_miniproject
+Task: T_데이터수집
+Step: SetText (7/19)
+
+대상 앱이 현재 화면에 없습니다.
+대상 앱이 열려 있는지 확인 해주세요.
+
+Application: chrome
+App Object Type: Window
+
+[CallStack]
+  - T_데이터수집: [7] SetText
+  - P_miniproject: [1] RunTask
+
+[Global Variables]
+  - RESULT = false (Boolean)
+
+2024-09-13 10:46:54,177 [T14-ScriptEngine] DEBUG JobManager
+Set Result State: ExceptionOccured
+
+2024-09-13 10:46:55,026 [T14-ScriptEngine] INFO  JobRunner
+Make report.
+
+2024-09-13 10:46:55,071 [T14-ScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2024-09-13 10:46:55,072 [T14-ScriptEngine] DEBUG JobRunner
+OnProcessFailed
+
+2024-09-13 10:46:55,072 [T20] DEBUG JobRunner
+Start timer for checking the job to be completed.
+
+2024-09-13 10:46:55,073 [T14-ScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2024-09-13 10:46:55,075 [T14-ScriptEngine] DEBUG JobRunner
+Remove all libraries
+
+2024-09-13 10:46:55,076 [T14-ScriptEngine] DEBUG NetPlayer
+WebPlayer OnDispose
+
+2024-09-13 10:46:55,078 [T14-ScriptEngine] DEBUG WebPlayer
+WebPlayer OnDispose : Do Nothing
+
+2024-09-13 10:46:55,079 [T14-ScriptEngine] DEBUG UIAEventHandler
+Stop UIA event handler
+
+2024-09-13 10:46:55,089 [T14-ScriptEngine] DEBUG UiaAppHelper
+WinHelper DisposeAppList Count: 0
+
+2024-09-13 10:46:55,089 [T14-ScriptEngine] INFO  JobRunner
+All Resources Clear
+
+2024-09-13 10:46:55,092 [T14-ScriptEngine] DEBUG JobRunner
+OnCompleted
+
+2024-09-13 10:46:55,092 [T14-ScriptEngine] DEBUG JobRunner
+SendJobResult: ExceptionOccured
+
+2024-09-13 10:46:55,092 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: ExceptionOccured
+##############################################################
+Process: P_miniproject
+Task: T_데이터수집
+Step: SetText (7/19)
+
+대상 앱이 현재 화면에 없습니다.
+대상 앱이 열려 있는지 확인 해주세요.
+
+Application: chrome
+App Object Type: Window
+
+[CallStack]
+  - T_데이터수집: [7] SetText
+  - P_miniproject: [1] RunTask
+
+[Global Variables]
+  - RESULT = false (Boolean)
+
+
+2024-09-13 10:46:55,092 [T14-ScriptEngine] INFO  JobRequest
+Last job life cycle state: ExceptionOccured
+
+2024-09-13 10:46:55,108 [T14-ScriptEngine] INFO  JobRequest
+##############################################################
+### JOB COMPLETED
+##############################################################
+
+
+2024-09-13 10:46:55,117 [T10] DEBUG JobRequest
+Callback - State: ExceptionOccured
+Process: P_miniproject
+Task: T_데이터수집
+Step: SetText (7/19)
+
+대상 앱이 현재 화면에 없습니다.
+대상 앱이 열려 있는지 확인 해주세요.
+
+Application: chrome
+App Object Type: Window
+
+[CallStack]
+  - T_데이터수집: [7] SetText
+  - P_miniproject: [1] RunTask
+
+[Global Variables]
+  - RESULT = false (Boolean)
+
+2024-09-13 10:46:55,118 [T10] INFO  JobRequest
+Callback - EngineClosed
+
+2024-09-13 10:46:55,118 [T10] INFO  JobService
+Disconnect agent service
+
+2024-09-13 10:46:55,121 [T10] DEBUG JobRequest
+End of Callback Sender
+
